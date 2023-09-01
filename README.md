@@ -1,11 +1,11 @@
-About planetary-coverage
-========================
+About planetary-coverage-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/planetary-coverage-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.planetary-coverage.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/planetary-coverage-feedstock/blob/main/LICENSE.txt)
 
 Summary: Planetary coverage package
 
