@@ -1,5 +1,5 @@
 {% set name = "planetary-coverage" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/planetary_coverage-{{ version }}.tar.gz
-  sha256: 44b7058129be7cf8fc047332cbc93a07525585eaa30b59d84a97c0325324bb9f
+  sha256: dde0b152a8da2a3cc9b09696cae0433a42f10d7b94fb2d33234a63b882f025fd
 
 build:
   entry_points:
