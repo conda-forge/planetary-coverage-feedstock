@@ -15,7 +15,7 @@ build:
     - mk-download = planetary_coverage.cli:cli_metakernel_download
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
