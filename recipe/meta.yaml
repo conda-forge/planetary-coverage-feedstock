@@ -1,5 +1,5 @@
 {% set name = "planetary-coverage" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/planetary_coverage-{{ version }}.tar.gz
-  sha256: be483ba59dcb4d2e8744af15d8579c57a6824bba0f4728ef06b23a7ffa5cddfc
+  sha256: 1521b41b6d9a9b111259f50d13894cbd8c7a5efa9bc45ca571745fd625f9dca8
 
 build:
   entry_points:
@@ -15,7 +15,7 @@ build:
     - mk-download = planetary_coverage.cli:cli_metakernel_download
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 0
 
 requirements:
   host:
