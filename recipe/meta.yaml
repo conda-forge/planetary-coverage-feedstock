@@ -57,7 +57,7 @@ about:
   license_family: BSD
   license_file: LICENSE.md
   doc_url: https://docs.planetary-coverage.org
-  dev_url: https://juigitlab.esac.esa.int/python/planetary-coverage
+  dev_url: https://gitlab.esa.int/juice-soc-public/python/planetary-coverage
 
 extra:
   recipe-maintainers:
