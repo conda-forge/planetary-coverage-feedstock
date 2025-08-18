@@ -1,5 +1,5 @@
 {% set name = "planetary-coverage" %}
-{% set version = "1.1.1" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/planetary_coverage-{{ version }}.tar.gz
-  sha256: be483ba59dcb4d2e8744af15d8579c57a6824bba0f4728ef06b23a7ffa5cddfc
+  sha256: 1521b41b6d9a9b111259f50d13894cbd8c7a5efa9bc45ca571745fd625f9dca8
 
 build:
   entry_points:
@@ -15,7 +15,7 @@ build:
     - mk-download = planetary_coverage.cli:cli_metakernel_download
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 0
 
 requirements:
   host:
@@ -24,11 +24,12 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - pillow >=10.0.0,<11.0.0
-    - matplotlib-base >=3.7.2
-    - numpy >=1.25.0
-    - spiceypy >=6.0.0
+    - numpy >=1.26
+    - matplotlib-base >=3.10
+    - spiceypy >=6.0
+    - pillow >=11
     - defusedxml >=0.7.1,<1.0.0
+    - certifi >=2025
 
 test:
   imports:
@@ -56,7 +57,7 @@ about:
   license_family: BSD
   license_file: LICENSE.md
   doc_url: https://docs.planetary-coverage.org
-  dev_url: https://juigitlab.esac.esa.int/python/planetary-coverage
+  dev_url: https://gitlab.esa.int/juice-soc-public/python/planetary-coverage
 
 extra:
   recipe-maintainers:
