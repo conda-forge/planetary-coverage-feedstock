@@ -24,11 +24,12 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.0
-    - pillow >=10.0.0,<11.0.0
-    - matplotlib-base >=3.7.2
-    - numpy >=1.25.0
-    - spiceypy >=6.0.0
+    - numpy >=1.26
+    - matplotlib-base >=3.10
+    - spiceypy >=6.0
+    - pillow >=11
     - defusedxml >=0.7.1,<1.0.0
+    -certifi >=2025
 
 test:
   imports:
