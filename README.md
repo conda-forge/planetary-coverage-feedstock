@@ -9,7 +9,7 @@ Package license: BSD-3-Clause
 
 Summary: Planetary coverage package
 
-Development: https://juigitlab.esac.esa.int/python/planetary-coverage
+Development: https://gitlab.esa.int/juice-soc-public/python/planetary-coverage
 
 Documentation: https://docs.planetary-coverage.org
 
@@ -157,4 +157,3 @@ Feedstock Maintainers
 =====================
 
 * [@seignovert](https://github.com/seignovert/)
-
