@@ -60,7 +60,5 @@ about:
   dev_url: https://gitlab.esa.int/juice-soc-public/python/planetary-coverage
 
 extra:
-  identifiers:
-    - doi:10.60487/cgxm-grps
   recipe-maintainers:
     - seignovert
